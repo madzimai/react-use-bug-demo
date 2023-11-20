@@ -1,0 +1,20 @@
+{
+  "name": "react-bug-demo",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "exports": "index.js",
+  "dependencies": {
+    "react-dom": "18.3.0-canary-bbb9cb116-20231117",
+    "react": "18.3.0-canary-bbb9cb116-20231117",
+    "workerd": "1.20231030.0"
+  },
+  "devDependencies": {
+    "rollup": "4.3.0",
+    "@rollup/plugin-swc": "0.2.1",
+    "@swc/core": "1.3.96",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-replace": "5.0.5"
+  }
+}
